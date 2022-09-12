@@ -10,7 +10,7 @@ import './App.css';
 const root = document.getElementById('root');
 const container = createRoot(root);
 container.render(
-   <React.StrictMode>
-      <TodoContainer />
-   </React.StrictMode>,
+  <React.StrictMode>
+    <TodoContainer />
+  </React.StrictMode>,
 );
