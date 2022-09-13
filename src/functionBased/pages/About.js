@@ -7,8 +7,8 @@ import SinglePage from './SinglePage';
 // https://stackoverflow.com/questions/70447957/why-is-usematch
 // -not-working-in-react-router
 const About = () => (
-  <div>
-    <ul>
+  <div className="about__content">
+    <ul className="about__list">
       <li>
         <Link to="about-app">About App</Link>
       </li>
