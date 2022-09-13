@@ -12,6 +12,7 @@ class TodosList extends Component {
                    todo={todo}
                    handleChangeAttr={this.props.handleChangeAttr}
                    deleteTodosAttr={this.props.delTodosAttr}
+                   editTodoAttr={this.props.editTodoAttr}
                  />
                ))
             }
